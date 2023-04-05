@@ -14,7 +14,7 @@ To install this template follow the below steps:
  -> Now use the following commands.
  > git init
 
- > git clone --branch react-webpack-tailwind-daisyui https://github.com/sddoc-in/web_templates.git
+ > git clone --branch react-webpack-tailwind https://github.com/sddoc-in/web_templates.git
 
  -> Then open Command prompt, Terminal or Windows Powershell in your computer in the working directory and type
  > pnpm install
