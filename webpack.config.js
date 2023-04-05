@@ -20,7 +20,7 @@ module.exports = {
             },
             {
                 test: /\.s?css$/,
-                use: ["style-loader", "css-loader", "sass-loader","postcss-loader"],
+                use: ["style-loader", "css-loader", "sass-loader",],
             },
             {
                 test: /\.(jpe?g|gif|png|svg)$/i,
