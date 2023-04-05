@@ -1,33 +1,14 @@
 
 export default function App() {
   return (
-    <div class="space-y-4">
-  <div class="w-96 bg-white shadow rounded">
-      w-96
-  </div>
-  <div class="w-80 bg-white shadow rounded">
-      w-80
-  </div>
-  <div class="w-72 bg-white shadow rounded">
-      w-72
-  </div>
-  <div class="w-64 bg-white shadow rounded">
-      w-64
-  </div>
-  <div class="w-60 bg-black shadow rounded">
-      w-60
-  </div>
-  <div class="w-56 bg-white shadow rounded">
-      w-56
-  </div>
-  <div class="w-52 bg-white shadow rounded">
-      w-52
-  </div>
-  <div class="w-48 bg-white shadow rounded">
-      w-48
-  </div>
-</div>
-
+    <>
+      <div className="flex-col">
+        <p>
+          These are the progress bars
+        </p>
+        <div className="radial-progress bg-primary text-primary-content border-4 border-primary" style={{ "--value": 70 }}>70%</div>
+      </div>
+    </>
   );
 }
 
